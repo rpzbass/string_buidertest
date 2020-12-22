@@ -2,7 +2,6 @@ package Application;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Scanner;
 import entities.Comment;
 import entities.Post;
 
@@ -11,7 +10,7 @@ public class Program {
 	public static void main(String[] args) throws ParseException {
 		
 		
-		Scanner input = new Scanner(System.in);
+		
 		
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 		
@@ -23,6 +22,7 @@ public class Program {
 		
 		p1.addComment(c1);
 		p1.addComment(c2);
+		
 		
 		System.out.println(p1);
 

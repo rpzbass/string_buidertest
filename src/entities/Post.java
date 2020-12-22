@@ -22,7 +22,7 @@ public class Post {
 	public Post() {
 
 	}
-
+		//Constructor overload 
 	public Post(Date moment, String title, String content, Integer likes) {
 
 		this.moment = moment;
@@ -100,9 +100,10 @@ public class Post {
 		for (Comment c : comments) {
 			
 			sb.append(c.getText() + "\n------------------------------" + "\n");
-			
 		}
+		
 		return sb.toString();	
+	
 	}
 	
 	
